@@ -1,0 +1,215 @@
+@media(max-width: 1400px){
+    .feedback {
+        flex-wrap: wrap;
+    }
+
+    .feedback .comentario{
+        max-width: 300px
+    }
+
+    .imagem-secundaria{
+        flex-wrap: wrap;
+    }
+
+    .imagem-secundaria .mantenha-se-produtivo{
+        margin-bottom: 80px;
+    }
+
+    .imagem-secundaria .mantenha-se-produtivo img{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+
+@media(max-width: 1000px){
+    .email{
+      max-width: 700px;  
+    }
+}
+
+
+@media(max-width: 1200px){
+    .rodape .contatos{
+        flex-direction: column;
+        row-gap: 30px;
+}
+.contatos .social{
+   margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 790px){
+    .container-cabecalho .logo img{
+      width: 120px;
+    }
+
+    .container-cabecalho  ul{
+        font-size: 12px;
+    }
+
+    .conteudo-principal .descricao1 h2{
+        font-size: 30px;
+    } 
+
+    .imagem-secundaria .descricao2 h2{
+        font-size: 30px;
+    }
+
+    .conteudo-principal .descricao1 p{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .imagem-secundaria .descricao2 p{
+        font-size: 14px;
+    }
+    .conteudo-principal .botao a{
+        font-size: 18px;
+        padding: 10px 50px;
+    }
+
+    .vantagens{
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    .imagem-secundaria{
+        padding-bottom: 130px;
+    }
+    .email{
+        margin: 100px auto;
+    }
+
+    .email .texto h2{
+        font-size: 30px;
+    }
+
+    .input-e-botao{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .input-e-botao .botao{
+        margin: 0;
+    }
+
+    .input-e-botao input{
+        margin-bottom: 30px;
+    }
+
+    .rodape{
+        padding: 130px 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape .logo img{
+       width: 30%;
+    }
+    .rodape .localizacao{
+        margin: 0 auto;
+    }
+    .rodape .contato{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .rodape .sobre-nos{
+        margin: 0 auto;
+    }
+
+    .rodape .contate-nos{
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 450px){
+
+    .container-cabecalho{
+        padding: 25px 40px;
+    }
+
+    .container-cabecalho .menu a{
+        font-size: 10px;
+        margin-left: 25px;
+    }
+    .container-cabecalho .logo img{
+        width: 80px;
+    }
+
+    .imagem-principal .descricao1 {
+        padding: 30px;
+    }
+
+    .imagem-principal .descricao1 h2{
+        font-size: 20px;
+    }
+
+    .imagem-principal .descricao1 p{
+        font-size: 12px;
+    }
+
+    .vantagens {
+       padding: 110px 30px;
+       row-gap: 70px;
+    }
+
+    .vantagens .icone1, .icone2, .icone3, .icone4, .subtitulo {
+        font-size: 18px;
+    }
+
+    .vantagens .icone1 .texto, .icone2 .texto, .icone3 .texto, .icone4 .texto {
+        font-size: 10px;
+    }
+
+    .vantagens .icone1 img, .icone2 img, .icone3 img, .icone4 img{
+        width: 18%;
+    }
+    
+    .imagem-secundaria .descricao2{
+       text-align: center;
+       padding: 0 30px;
+       
+    }
+
+    .imagem-secundaria .descricao2 h2{
+        font-size: 20px;
+    }
+
+    .imagem-secundaria .descricao2 p{
+        font-size: 12px;
+    }
+
+    .feedback .comentario p{
+        font-size: 12px;
+    }
+
+    .email .texto h2{
+        font-size: 20px;
+    }
+
+    .email .texto p{
+        font-size: 12px;
+    }
+
+    .input-e-botao input{
+        height: 35px;
+    }
+
+    .input-e-botao .botao{
+        height: 40px;
+        padding: 10px;
+    }
+
+    .rodape{
+        font-size: 12px;
+        padding: 100px 100px;
+    }
+}
+
+@media(max-width: 400px){
+ 
+}
